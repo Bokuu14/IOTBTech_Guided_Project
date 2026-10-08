@@ -1,0 +1,32 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfplan
+tfplan
+crash.log
+crash.*.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.terraformrc
+terraform.rc
+
+# Keep .terraform.lock.hcl in the repo - it pins the provider versions
+
+# Keys and secrets (never commit these)
+id_rsa*
+*.pem
+*.key
+*.ppk
+
+# Ansible
+*.retry
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
